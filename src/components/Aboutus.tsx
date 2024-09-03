@@ -18,7 +18,7 @@ const Aboutus = () => {
             <div className="flex flex-col justify-center px-3 w-full min-h-[609px] max-md:max-w-full">
               <img
                 loading="lazy"
-                srcSet=""
+                src="/about.jpg.png"
                 className="object-contain w-full aspect-[1.04] max-w-[660px] max-md:max-w-full"
               />
             </div>

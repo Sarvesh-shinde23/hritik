@@ -43,13 +43,13 @@ const features: Feature[] = [
 
 const WhyChooseUsSection: React.FC = () => {
   return (
-    <div className="flex flex-col items-center pt-12 pb-28 w-full max-w-[1320px] min-h-[799px] max-md:pb-24 max-md:max-w-full">
+    <div className="flex flex-col items-center pt-12 pb-25 w-full max-w-[1490px] min-h-[900px] max-md:pb-25 max-md:max-w-full">
       <SectionTitle
         subtitle="Why Choose Us"
         title={<>We Are Here to Grow Your <br /> Business Exponentially</>}
       />
       <div className="flex flex-wrap justify-center items-start w-full">
-        <div className="flex flex-col flex-1 shrink justify-center text-base basis-12 h-[418px] max-w-[1344px] min-w-[240px] max-md:max-w-full">
+        <div className="flex flex-col flex-1 shrink justify-center text-base basis-12 h-[500px] max-w-[1344px] min-w-[240px] max-md:max-w-full">
           <div className="flex flex-col w-full max-w-[1344px] min-h-[418px] max-md:max-w-full">
             <div className="flex flex-col justify-center w-full max-md:max-w-full">
               {features.slice(0, 3).map((feature, index) => (
@@ -64,7 +64,7 @@ const WhyChooseUsSection: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-col flex-1 shrink justify-center text-base basis-12 h-[418px] max-w-[1344px] min-w-[240px] max-md:max-w-full">
-          <div className="flex flex-col w-full max-w-[1344px] min-h-[418px] max-md:max-w-full">
+          <div className="flex flex-col w-full max-w-[1344px] min-h-[400px] max-md:max-w-full">
             <div className="flex flex-col justify-center w-full max-md:max-w-full">
               {features.slice(3).map((feature, index) => (
                 <FeatureCard key={index + 3} {...feature} />

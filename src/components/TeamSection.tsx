@@ -1,5 +1,5 @@
 import React from 'react';
-import TeamMember from './Teammember';
+import TeamMember from './TeamMember';
 
 const TeamSection: React.FC = () => {
   const teamMembers = [
@@ -24,8 +24,7 @@ const TeamSection: React.FC = () => {
               key={member.name}
               name={member.name}
               role={member.role}
-              imgSrc={member.imgSrc}
-              imgAlt={member.imgAlt}
+             
             />
           ))}
         </div>

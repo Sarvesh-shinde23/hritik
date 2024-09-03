@@ -1,19 +1,21 @@
-import Link from 'next/link';
-import Image from 'next/image'; // Import Image component from Next.js
 import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-const Navbar = () => {
-  return (
+
+const Navbar: React.FC = () => {
+  return (<>
+
     <div className="navbar bg-base-100">
       <div className="flex-1">
         <Link href="/">
           <Image
-            height={80}
-            width={160}
-            src="/white.jpeg" 
+            height={60}
+            width={80}
+            src="/vector.svg" 
             alt="Tech Company Logo"
-            className="btn btn-ghost text-xl"
-          />
+            
+            />
         </Link>
       </div>
       <div className="flex-none">
@@ -27,6 +29,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
+            </>
   );
 };
 
