@@ -6,22 +6,25 @@ import MyComponent from '@/components/MyComponent'
 import ServiceSection from '@/components/ServiceSection'
 
 import TeamSection from '@/components/TeamSection'
-import Testimonials from '@/components/Testimonial'
+import Testimonial from '@/components/Testimonial'
+
+import TopBar from '@/components/TopBar'
 
 import WhyChooseUsSection from '@/components/WhychooseUs'
 import React from 'react'
 
 const page = () => {
   return (<>
- 
+ <TopBar/>
     <HeroSection/>
 <MyComponent/>
     <Aboutus/>
   <TeamSection/>
     <WhyChooseUsSection/>
-  <Testimonials/>  
+  
   <ServiceSection/>
   <FAQ/>
+  <Testimonial/>
   <ContactSection/>
   </>
   )

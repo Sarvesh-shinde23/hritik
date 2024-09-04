@@ -10,24 +10,13 @@ interface FAQItemProps {
 
 const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
   return (
-    <div className="flex overflow-hidden relative flex-col py-5 pr-5 pl-5 mt-4 w-full bg-white rounded-md border border-solid border-neutral-700 border-opacity-10 max-md:pr-5 max-md:max-w-full">
-      <h3 className="flex-1 shrink self-stretch w-full text-lg font-semibold leading-none text-neutral-800 max-md:max-w-full">
-        {question}
-      </h3>
-      <p className="flex z-0 flex-col justify-center pt-2.5 w-full text-base leading-6 text-white max-md:max-w-full">
-        {answer}
-      </p>
-      <div className="flex absolute top-5 z-0 flex-col w-4 left-[1039px] right-[21px]">
-        <div className="flex items-start w-full">
-          <img
-            loading="lazy"
-            src="http://b.io/ext_?"
-            alt=""
-            className="object-contain w-4 aspect-square"
-          />
-        </div>
-      </div>
+    <div className="collapse collapse-plus bg-base-200">
+    <input type="radio" name="my-accordion-3" defaultChecked />
+    <div className="collapse-title text-xl font-medium">{question}</div>
+    <div className="collapse-content">
+      <p>{answer}</p>
     </div>
+  </div>
   );
 };
 
