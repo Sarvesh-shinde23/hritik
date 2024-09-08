@@ -3,47 +3,43 @@ import FeatureCard from './FeaturedCard';
 import SectionTitle from './SectionTitle';
 
 interface Feature {
-  icon: string;
+  Imgsrc: string;
   title: string;
   description: string;
 }
 
 const features: Feature[] = [
   {
-    icon: '',
+    Imgsrc: "/whychooseus/Background.png",
     title: 'Experienced Advisors',
-    description: 'Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor'
+    description: 'Our team consists of industry veterans and subject matter experts with decades of experience in startup consultancy. We bring unparalleled expertise and insights to every project.'
   },
   {
-    icon: '',
+    Imgsrc: "/whychooseus/text.png",
     title: 'Proven Methodologies Winning',
-    description: 'Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor'
+    description: 'We leverage proven methodologies such as Lean Startup, Agile Development, and SWOT Analysis to deliver practical and effective solutions that drive growth and success.'
   },
   {
-    icon: '',
+    Imgsrc: "/whychooseus/1.svg",
     title: 'Global Perspective',
-    description: 'Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor'
+    description: 'With a global network and a deep understanding of various markets, we provide a global perspective that helps startups navigate international challenges and opportunities.'
   },
   {
-    icon: '',
+    Imgsrc: "/whychooseus/2.svg",
     title: 'Tailored Solutions',
-    description: 'Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor'
+    description: 'We believe that every startup is unique. Our solutions are customized to meet the specific needs and goals of each client, ensuring maximum impact and relevance.'
   },
   {
-    icon: '',
+    Imgsrc: "/whychooseus/3.svg",
     title: 'Comprehensive Support',
-    description: 'Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor'
+    description: 'From inception to expansion, we offer end-to-end support that covers all aspects of the startup journey. Our holistic approach ensures that you have the guidance and resources you need at every stage.'
   },
-  {
-    icon: '',
-    title: 'Proven a Winning',
-    description: 'Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor'
-  }
+  
 ];
 
 const WhyChooseUsSection: React.FC = () => {
   return (
-    <div className="flex flex-col items-center pt-12 pb-25 w-full max-w-[1490px] min-h-[900px] max-md:pb-25 max-md:max-w-full">
+    <div className="flex flex-col items-center pt-12 pb-24 w-full max-w-[1490px] min-h-[900px] max-md:pb-25 max-md:max-w-full">
       <SectionTitle
         subtitle="Why Choose Us"
         title={<>We Are Here to Grow Your <br /> Business Exponentially</>}
@@ -60,7 +56,7 @@ const WhyChooseUsSection: React.FC = () => {
         </div>
         <div className="flex flex-col flex-1 shrink justify-center px-6 pt-12 basis-0 max-w-[1344px] min-h-[418px] min-w-[240px] max-md:px-5 max-md:max-w-full">
           <div className="flex flex-col w-full">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/9fefbe84f1c36a17fd484aad38f2b536131d3e76b76acb3423535b560b58c490?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37" className="object-contain w-full rounded-sm aspect-[1.08]" alt="Business growth illustration" />
+            <img loading="lazy" src="/whychooseus/feature.jpg.png" className="object-contain w-full rounded-sm aspect-[1.08]" alt="Business growth illustration" />
           </div>
         </div>
         <div className="flex flex-col flex-1 shrink justify-center text-base basis-12 h-[418px] max-w-[1344px] min-w-[240px] max-md:max-w-full">

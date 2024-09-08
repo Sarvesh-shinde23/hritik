@@ -3,31 +3,31 @@ import Card from "./Card";
 
 const cardsData = [
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/438953360af13d473d12d182f1e89eb92c8c5501adb89b7188b39f883c479bcb?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
+    imgSrc: "/mycomponent/company.svg",
     altText: "Company Registration Icon",
     title: "Company Registration",
     description: "Navigate the legal landscape with ease."
   },
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/2e31baa8aa002b01802523c568133f9b45de6b4fdad77dbc13b4049de6acac99?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
+    imgSrc: "/mycomponent/bank.svg",
     altText: "Fundraising Icon",
     title: "Fundraising",
     description: "Secure the capital you need to grow."
   },
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/7fad58727f66f7c54be4fb458465555e6bb2f2e6d20f3e36faa2133001102cc2?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
+    imgSrc: "/mycomponent/growth.svg",
     altText: "Growth Strategy Icon",
     title: "Growth Strategy",
     description: "Develop strategies to scale your business."
   },
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/b95a34902fa8fae2f6ff9fbd4ffd50730eccf2522f0457beff2bffe6f538f611?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
+    imgSrc: "/mycomponent/efficiency.svg",
     altText: "Efficiency Optimization Icon",
     title: "Efficiency Optimization",
     description: "Maximize your operational efficiency."
   },
   {
-    imgSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/e967612e83be2fd98830d3a1f59c2fc2d3faed40f5f034c81c218b447d23ad2e?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37",
+    imgSrc: "/mycomponent/support.svg",
     altText: "End-to-End Support Icon",
     title: "End-to-End Support",
     description: "Providing solutions at every stage of your startup journey."

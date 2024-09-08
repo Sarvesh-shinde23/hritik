@@ -5,11 +5,11 @@ const Aboutus = () => {
   
 
   return (
-    <div className="flex overflow-hidden flex-col items-center pt-16 pr-24 pb-28 pl-24 w-full bg-slate-50 min-h-[891px] max-md:px-5 max-md:pb-24 max-md:max-w-full">
+    <div id="about" className="flex overflow-hidden flex-col items-center pt-16 pr-24 pb-28 pl-24 w-full bg-slate-50 min-h-[891px] max-md:px-5 max-md:pb-24 max-md:max-w-full">
       <div className="flex flex-col px-3 pb-16 max-w-full text-3xl font-bold text-center text-neutral-800 w-[1320px]">
         <div className="pr-96 pl-96 w-full max-md:px-5 max-md:max-w-full">
           {" "}
-          <span className="text-zinc-500">About Us</span>
+          <span className="text-black">About Us</span>
         </div>
       </div>
       <div className="flex flex-col w-full max-w-[1320px] max-md:max-w-full">
@@ -27,15 +27,13 @@ const Aboutus = () => {
             <div className="flex flex-col justify-center px-3 py-20 w-full min-h-[609px] max-md:max-w-full">
               <div className="flex flex-col pl-4 w-full max-md:max-w-full">
                 <div className="w-full text-2xl font-bold leading-8 text-neutral-800 max-md:max-w-full">
-                  Voluptatem dignissimos provident quasi
-                  <br />
-                  corporis voluptates sit assumenda.
+                Company Overview
+        
                 </div>
                 <div className="mt-2 w-full text-base leading-6 text-neutral-700 max-md:max-w-full">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor
+                Welcome to Transcend Business Consultancy, where we transform startups into thriving enterprises. Our mission is to empower startups with the tools and strategies they need to succeed, providing comprehensive support from the initial idea to full-scale operations.
                   <br />
-                  incididunt ut labore et dolore magna aliqua.
+                  Our vision is to be the leading consultancy for startup success, renowned for our integrity, innovation, and excellence
                 </div>
                 <div className="flex flex-col pt-7 mt-2 w-full max-md:max-w-full">
                   <div className="flex flex-wrap items-start w-full max-md:max-w-full">
@@ -44,7 +42,7 @@ const Aboutus = () => {
                         <div className="flex flex-col self-stretch my-auto w-6">
                           <img
                             loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/9647ac6df4be398ce541f9554e5213965b4ec7b0a4910882a49cf9a9fd7e9d13?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37"
+                            src="/Aboutus/2.png"
                             className="object-contain w-full aspect-square"
                           />
                         </div>
@@ -52,11 +50,10 @@ const Aboutus = () => {
                     </div>
                     <div className="flex flex-col min-w-[240px] w-[520px] max-md:max-w-full">
                       <div className="w-full text-lg font-semibold leading-tight text-neutral-800 max-md:max-w-full">
-                        Ullamco laboris nisi ut aliquip consequat
+                      Our Approach
                       </div>
                       <div className="mt-2 w-full text-base text-neutral-700 max-md:max-w-full">
-                        Magni facilis facilis repellendus cum excepturi quaerat
-                        praesentium libre trade
+                      At Transcend Business Consultancy, we utilize a comprehensive methodology that includes Lean Startup principles, Agile Development, Market Analysis, and SWOT Analysis. Our approach is tailored to each client’s unique needs, ensuring that we deliver customized solutions that drive success. We believe in a collaborative process that involves close engagement with our clients to understand their vision and goals, ensuring that we provide actionable insights and practical strategies.
                       </div>
                     </div>
                   </div>
@@ -66,7 +63,7 @@ const Aboutus = () => {
                         <div className="flex flex-col self-stretch my-auto w-6">
                           <img
                             loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/e1e4087c1ba64add81a2c3371fa741bac9919420617a6747571b45329a7c107e?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37"
+                            src="/Aboutus/Container.svg"
                             className="object-contain w-full aspect-square"
                           />
                         </div>
@@ -74,29 +71,15 @@ const Aboutus = () => {
                     </div>
                     <div className="flex flex-col min-w-[240px] w-[500px] max-md:max-w-full">
                       <div className="w-full text-lg font-semibold leading-tight text-neutral-800 max-md:max-w-full">
-                        Magnam soluta odio exercitationem reprehenderi
+                        Our Journey
                       </div>
                       <div className="mt-2 w-full text-base leading-6 text-neutral-700 max-md:max-w-full">
-                        Quo totam dolorum at pariatur aut distinctio dolorum
-                        laudantium illo direna
-                        <br />
-                        pasata redi
+                      Founded in 2019, Transcend Business Consultancy has grown from a small advisory firm to a global player in the startup ecosystem. Over the years, we have assisted over 40 startups in navigating the complexities of business development, securing funding, and achieving sustainable growth. Our key milestones include the successful launch of our Startup Accelerator Program in 2022 and the establishment of our Innovation Lab in 2023, which fosters cutting-edge business solutions.
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="pt-7 mt-2 w-full text-base leading-6 text-neutral-700 max-md:max-w-full">
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                  aute irure dolor in
-                  <br />
-                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                  nulla pariatur. Excepteur sint
-                  <br />
-                  occaecat cupidatat non proident, sunt in culpa qui officia
-                  deserunt mollit anim id est
-                  <br />
-                  laborum
-                </div>
+               
               </div>
             </div>
           </div>

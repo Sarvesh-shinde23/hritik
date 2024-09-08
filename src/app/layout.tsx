@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import TopBar from "@/components/TopBar";
 
 
 // Import Montserrat font
@@ -19,9 +20,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
     <html lang="en">
       <body className={montserrat.className}>
-        
+        <TopBar/>
         <Navbar />
         <div className="min-h-dvh">{children}</div>
         <div className="w-full">

@@ -35,7 +35,7 @@ const servicesData = [
 
 const Services: React.FC = () => {
   return (
-    <div className="flex overflow-hidden flex-col items-center pt-9 pr-24 pb-16 pl-24 w-full bg-white min-h-[653px] max-md:px-5 max-md:max-w-full">
+    <div className="flex overflow-hidden flex-col items-center w-full bg-white min-h-[653px] max-md:px-5 max-md:max-w-full">
       <div className="flex flex-col w-full max-w-[1320px] max-md:max-w-full">
         <div className="flex flex-wrap justify-center w-full max-md:max-w-full">
           {servicesData.map((service, index) => (

@@ -11,14 +11,14 @@ const ServiceProp: React.FC<ServiceCardProps> = ({ imgSrc, imgAlt, title, descri
   return (
     <div className="flex flex-col grow justify-center px-3 pt-6 min-h-[383px] max-md:max-w-full">
       <div className="flex flex-col px-5 py-20 w-full bg-white border border-solid border-neutral-700 border-opacity-10">
-        <div className="flex justify-center items-center self-center px-5 w-16 h-16 rounded bg-zinc-500 min-h-[64px]">
+        <div className="flex justify-center items-center self-center px-5 w-16 h-16 rounded bg-black min-h-[64px]">
           <div className="flex flex-col items-center self-stretch pt-1.5 pb-2 my-auto w-7">
             <div className="flex items-start w-full">
               <img loading="lazy" src={imgSrc} alt={imgAlt} className="object-contain w-7 aspect-square" />
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-start mt-5 text-2xl font-bold leading-tight text-center text-neutral-800">
+        <div className="flex justify-center items-start mt-5 text-2xl font-bold leading-tight text-center text-black">
           <div className="flex-1 shrink px-28 w-full min-w-[240px] max-md:px-5">{title}</div>
         </div>
         <div className="px-0.5 mt-3.5 text-sm leading-6 text-center text-neutral-700">{description}</div>
