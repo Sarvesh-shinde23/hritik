@@ -7,7 +7,7 @@ npm cache clean --force
 # Install the dependencies
 echo "Installing dependencies..."
 npm install
-npm run build
+next build
 
 # Exit the script
 echo "Done."
