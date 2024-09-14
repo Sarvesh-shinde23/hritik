@@ -1,6 +1,6 @@
 import React from "react";
+import Image from "next/image";
 import ContactForm from "./ContactForm";
-
 
 const ContactSection: React.FC = () => {
   return (
@@ -34,11 +34,13 @@ const ContactSection: React.FC = () => {
               ].map((item, index) => (
                 <div key={index} className="flex items-start mb-10">
                   <div className="flex items-center justify-center w-11 h-11 bg-blue-600 bg-opacity-10 rounded-full">
-                    <img
+                    <Image
                       loading="lazy"
                       src={item.iconSrc}
                       alt={item.title}
                       className="object-contain w-5 h-5"
+                      width={20} // Add width for better optimization
+                      height={20} // Add height for better optimization
                     />
                   </div>
                   <div className="ml-4">
@@ -48,18 +50,17 @@ const ContactSection: React.FC = () => {
                 </div>
               ))}
               <div className="mt-10">
-              <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345011613!2d144.95373631531696!3d-37.8162179797518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772b07e6468934!2s123%20Business%20Rd%2C%20City%2C%20Country!5e0!3m2!1sen!2sin!4v1594298918257!5m2!1sen!2sin"
-  width="100%"
-  height="450"
-  frameBorder="0"
-  style={{ border: 0 }}
-  allowFullScreen
-  aria-hidden="false"
-  tabIndex={0} // Change to a number
-  title="Google Maps"
-/>
-
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345011613!2d144.95373631531696!3d-37.8162179797518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772b07e6468934!2s123%20Business%20Rd%2C%20City%2C%20Country!5e0!3m2!1sen!2sin!4v1594298918257!5m2!1sen!2sin"
+                  width="100%"
+                  height="450"
+                  frameBorder="0"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  aria-hidden="false"
+                  tabIndex={0}
+                  title="Google Maps"
+                />
               </div>
             </div>
           </div>

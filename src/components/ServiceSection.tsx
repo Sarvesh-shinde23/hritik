@@ -6,50 +6,50 @@ import ServiceProp from "./ServiceProp";
 
 const serviceData = [
   {
-    imgSrc: "/services/7.svg",
-    imgAlt: "Service 1 Icon",
+    ImageSrc: "/services/7.svg",
+    ImageAlt: "Service 1 Icon",
     title: "Company Incorporation",
     description: "We provide comprehensive support for company registration, covering legal compliance, business structure selection (LLP, Pvt Ltd, etc.), and registration filings.",
   },
   {
-    imgSrc: "/services/8.svg",
-    imgAlt: "Business Strategy Development",
+    ImageSrc: "/services/8.svg",
+    ImageAlt: "Business Strategy Development",
     title: "Business Strategy Development",
     description: "We help startups achieve their goals through market research, competitive analysis, and business modeling, offering comprehensive strategic planning services.",
   },
   {
-    imgSrc: "/services/9.svg",
-    imgAlt: "Fundraising and Capital Acquisition",
+    ImageSrc: "/services/9.svg",
+    ImageAlt: "Fundraising and Capital Acquisition",
     title: "Fundraising and Capital Acquisition",
     description: "We help startups secure capital with services including investor pitching, funding round navigation, and financial planning.",
   },
   {
-    imgSrc: "/services/10.svg",
-    imgAlt: "Fundraising and Capital Acquisition",
+    ImageSrc: "/services/10.svg",
+    ImageAlt: "Fundraising and Capital Acquisition",
     title: "Sales and Marketing Optimization",
     description: "We drive growth with effective sales and marketing strategies, including customer acquisition, sales funnel optimization, and branding.",
   },
   {
-    imgSrc: "/services/11.svg",
-    imgAlt: "Operational Efficiency",
+    ImageSrc: "/services/11.svg",
+    ImageAlt: "Operational Efficiency",
     title: "Operational Efficiency",
     description: "We enhance operational efficiency through process optimization, supply chain management, and technology integration.",
   },
   {
-    imgSrc: "/services/12.svg",
-    imgAlt: "Digital Marketing",
+    ImageSrc: "/services/12.svg",
+    ImageAlt: "Digital Marketing",
     title: "Digital Marketing",
     description: "We boost your startup's visibility through SEO, social media, content marketing, PPC, and email marketing.",
   },
   {
-    imgSrc: "/services/13.svg",
-    imgAlt: "Accounting Services",
+    ImageSrc: "/services/13.svg",
+    ImageAlt: "Accounting Services",
     title: "Accounting Services",
     description: "We keep startups financially healthy with bookkeeping, tax planning, payroll management, and budgeting.",
   },
   {
-    imgSrc: "/services/7.svg",
-    imgAlt: "End-to-End Support for Startups",
+    ImageSrc: "/services/7.svg",
+    ImageAlt: "End-to-End Support for Startups",
     title: "End-to-End Support for Startups",
     description: "We offer complete support for startups, including project management, ongoing advisory, and tailored solutions.",
   },
@@ -74,8 +74,8 @@ const ServiceSection: React.FC = () => {
               {serviceData.slice(0, 3).map((service, index) => (
                 <ServiceProp
                   key={index}
-                  imgSrc={service.imgSrc}
-                  imgAlt={service.imgAlt}
+                  ImageSrc={service.ImageSrc}
+                  ImageAlt={service.ImageAlt}
                   title={service.title}
                   description={service.description}
                 />
@@ -88,8 +88,8 @@ const ServiceSection: React.FC = () => {
             {serviceData.slice(3,6).map((service, index) => (
               <ServiceProp
                 key={index}
-                imgSrc={service.imgSrc}
-                imgAlt={service.imgAlt}
+                ImageSrc={service.ImageSrc}
+                ImageAlt={service.ImageAlt}
                 title={service.title}
                 description={service.description}
               />
@@ -102,8 +102,8 @@ const ServiceSection: React.FC = () => {
               {serviceData.slice(6).map((service, index) => (
                 <ServiceProp
                   key={index}
-                  imgSrc={service.imgSrc}
-                  imgAlt={service.imgAlt}
+                  ImageSrc={service.ImageSrc}
+                  ImageAlt={service.ImageAlt}
                   title={service.title}
                   description={service.description}
                 />

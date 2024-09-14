@@ -3,9 +3,9 @@ import TeamMember from './TeamMember';
 
 const TeamSection: React.FC = () => {
   const teamMembers = [
-    { name: 'Hrithik Hinduja', role: 'Chief Executive Officer' , imgAlt: 'Hritik Hinduja - Chief Executive Officer' },
-    { name: 'Anita Sharma', role: 'COO', imgAlt: 'Anita Sharma- COO' },
-    { name: 'Vikram Singh', role: 'Head Of Marketing', imgAlt: 'Vikram Singh  - Head Of Marketing' },
+    { name: 'Hrithik Hinduja', role: 'Chief Executive Officer' , ImageAlt: 'Hritik Hinduja - Chief Executive Officer' },
+    { name: 'Anita Sharma', role: 'COO', ImageAlt: 'Anita Sharma- COO' },
+    { name: 'Vikram Singh', role: 'Head Of Marketing', ImageAlt: 'Vikram Singh  - Head Of Marketing' },
 
   ];
 

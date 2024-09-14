@@ -4,31 +4,31 @@ import Card from "./Card";
 
 const cardsData = [
   {
-    imgSrc: "/mycomponent/company.svg",
+    ImageSrc: "/mycomponent/company.svg",
     altText: "Company Registration Icon",
     title: "Company Registration",
     description: "Navigate the legal landscape with ease."
   },
   {
-    imgSrc: "/mycomponent/bank.svg",
+    ImageSrc: "/mycomponent/bank.svg",
     altText: "Fundraising Icon",
     title: "Fundraising",
     description: "Secure the capital you need to grow."
   },
   {
-    imgSrc: "/mycomponent/growth.svg",
+    ImageSrc: "/mycomponent/growth.svg",
     altText: "Growth Strategy Icon",
     title: "Growth Strategy",
     description: "Develop strategies to scale your business."
   },
   {
-    imgSrc: "/mycomponent/efficiency.svg",
+    ImageSrc: "/mycomponent/efficiency.svg",
     altText: "Efficiency Optimization Icon",
     title: "Efficiency Optimization",
     description: "Maximize your operational efficiency."
   },
   {
-    imgSrc: "/mycomponent/support.svg",
+    ImageSrc: "/mycomponent/support.svg",
     altText: "End-to-End Support Icon",
     title: "End-to-End Support",
     description: "Providing solutions at every stage of your startup journey."
