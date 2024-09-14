@@ -1,6 +1,7 @@
 import * as React from "react";
 import Card from "./Card";
 
+
 const cardsData = [
   {
     imgSrc: "/mycomponent/company.svg",

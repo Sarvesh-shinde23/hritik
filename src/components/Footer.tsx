@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Footer: React.FC = () => {
   const commonImgSrc = "https://cdn.builder.io/api/v1/image/assets/TEMP/2cc9195bef0a81ca81f45fe0e244de92bb8bc6ffffa3bb57fe297d92a1aec7a8?placeholderIfAbsent=true&apiKey=bc78d96b1bfe4229ab8bdab79a935f37";
   
@@ -57,7 +58,7 @@ const Footer: React.FC = () => {
                 Our Services
               </h3>
               <div className="flex flex-col mt-2 w-full">
-                {["Web Design", "Web Development", "Product Management", "Marketing"].map((service, index) => (
+                {["Company Incorporation", "Business Strategy Development", "Fundraising and Capital Acquisition", "Accounting Services"].map((service, index) => (
                   <div className="flex items-center py-2.5 w-full" key={index}>
                     <div className="flex flex-col items-start self-stretch pr-1 my-auto w-[15px]">
                       <div className="flex items-start w-3">

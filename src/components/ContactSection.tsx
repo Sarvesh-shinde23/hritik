@@ -1,6 +1,7 @@
 import React from "react";
 import ContactForm from "./ContactForm";
 
+
 const ContactSection: React.FC = () => {
   return (
     <div className="flex flex-col px-3 pb-16 mt-9 max-w-full font-bold text-center">

@@ -26,7 +26,7 @@ const serviceData = [
   {
     imgSrc: "/services/10.svg",
     imgAlt: "Fundraising and Capital Acquisition",
-    title: "Fundraising and Capital Acquisition",
+    title: "Sales and Marketing Optimization",
     description: "We drive growth with effective sales and marketing strategies, including customer acquisition, sales funnel optimization, and branding.",
   },
   {
