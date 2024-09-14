@@ -3,7 +3,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      domains: ['cdn.builder.io', /* other domains */],
+      domains: ['cdn.builder.io','pbs.twimage.com','randomuser.me'],
     },
     // other Next.js config options...
   };
